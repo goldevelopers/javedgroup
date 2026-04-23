@@ -9,18 +9,17 @@
  */
 
 import { useLanguage } from './LanguageContext';
-import { useSite } from './SiteContext';
 
 export function useSiteLink(divisionSlug?: string) {
   const { locale } = useLanguage();
-  const site = useSite();
 
   return (path: string): string => {
-    // On subdomain the site IS the division — no prefix needed
-    if (site !== 'group') {
+    // On subdomain routing mode, the division is handled by the subdomain — no prefix needed.
+    // On path routing mode (GitHub Pages / single hostname), prefix with the division slug.
+    if (process.env.NEXT_PUBLIC_ROUTING_MODE !== 'path') {
       return `/${locale}${path}`;
     }
-    // On group site, prefix with the division slug
+    // On path mode, prefix with the division slug
     const slug = divisionSlug ?? '';
     const base = slug ? `/${slug}` : '';
     return `/${locale}${base}${path}`;

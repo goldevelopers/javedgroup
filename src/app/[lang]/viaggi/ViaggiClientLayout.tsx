@@ -2,14 +2,12 @@
 
 import React from 'react';
 import { useI18n } from '@/lib/useI18n';
-import { useSite } from '@/lib/SiteContext';
 import DivisionalHeader from '@/components/DivisionalHeader';
 import DivisionalFooter from '@/components/DivisionalFooter';
 
 export default function ViaggiClientLayout({ children }: { children: React.ReactNode }) {
   const { t: headerT, loading: headerLoading } = useI18n('header');
   const { t: footerT, loading: footerLoading } = useI18n('footer');
-  const site = useSite();
 
   if (headerLoading || footerLoading || !headerT || !footerT) {
     return (
@@ -19,7 +17,7 @@ export default function ViaggiClientLayout({ children }: { children: React.React
     );
   }
 
-  const base = site === 'group' ? '/viaggi' : '';
+  const base = process.env.NEXT_PUBLIC_ROUTING_MODE === 'path' ? '/viaggi' : '';
 
   const navItems = [
     { label: headerT.home,     href: base || '/' },
