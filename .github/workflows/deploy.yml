@@ -36,6 +36,28 @@ jobs:
           NEXT_PUBLIC_ENABLED_LOCALES: it,en,ur
           NEXT_PUBLIC_BASE_PATH: /javedgroup
 
+      - name: Debug — verify basePath in built output
+        run: |
+          echo "=== NEXT_PUBLIC_BASE_PATH value used ==="
+          echo "$NEXT_PUBLIC_BASE_PATH"
+          echo ""
+          echo "=== CSS/JS asset paths in out/it/index.html ==="
+          grep -o '"[^"]*_next[^"]*\.css"' out/it/index.html | head -3 || echo "(none found)"
+          echo ""
+          echo "=== Logo src paths in out/it/index.html ==="
+          grep -o 'src="[^"]*logos[^"]*"' out/it/index.html | head -10 || echo "(none in HTML — loaded by JS)"
+          echo ""
+          echo "=== Search JS chunks for /logos paths ==="
+          grep -rl '"/logos/' out/_next/static/chunks/ | head -5 || echo "(not found in chunks)"
+          echo ""
+          echo "=== Search JS chunks for basePath string ==="
+          grep -rl 'javedgroup' out/_next/static/chunks/ | head -5 || echo "(javedgroup not found in chunks — basePath NOT baked in!)"
+          echo ""
+          echo "=== Sample: first <img or next/image src in out/it/index.html ==="
+          grep -o 'src="[^"]*"' out/it/index.html | head -10 || echo "(no src attributes)"
+        env:
+          NEXT_PUBLIC_BASE_PATH: /javedgroup
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
