@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import Image from 'next/image';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 
 export default function Contact() {
     const { t, loading } = useI18n('contact');
@@ -22,7 +22,7 @@ export default function Contact() {
             <section className="py-24 bg-navy relative overflow-hidden text-center">
                 <div className="absolute inset-0 z-0">
                     <div className="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] bg-teal/10 rounded-full blur-[120px]"></div>
-                    <Image src="/assets/contact.png" fill className="object-cover mix-blend-overlay opacity-20" alt="Contact Hero" />
+                    <img src={assetPath("/assets/contact.png")} className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-20" alt="Contact Hero" />
                 </div>
                 <div className="max-w-7xl mx-auto px-6 relative z-10">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 animate-reveal">{t.hero.title}</h1>
@@ -37,7 +37,7 @@ export default function Contact() {
                         <div className="space-y-12">
                             <div className="group flex items-start gap-6">
                                 <div className="w-20 h-20 bg-teal/5 rounded-[2rem] flex items-center justify-center p-4 group-hover:bg-teal/10 transition-all duration-300 relative">
-                                    <Image src="/logos/Javed_Viaggi.svg" width={60} height={60} className="h-full w-full object-contain" alt="Javed Viaggi" />
+                                    <img src={assetPath("/logos/Javed_Viaggi.svg")} width={60} height={60} className="h-full w-full object-contain" alt="Javed Viaggi" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold mb-3 italic">{t.offices.parini.title}</h3>
@@ -50,7 +50,7 @@ export default function Contact() {
                             </div>
                             <div className="group flex items-start gap-6">
                                 <div className="w-20 h-20 bg-lime/5 rounded-[2rem] flex items-center justify-center p-4 group-hover:bg-lime/10 transition-all duration-300 relative">
-                                    <Image src="/logos/Autoscuole_Kiwi.svg" width={60} height={60} className="h-full w-full object-contain" alt="Autoscuole Kiwi" />
+                                    <img src={assetPath("/logos/Autoscuole_Kiwi.svg")} width={60} height={60} className="h-full w-full object-contain" alt="Autoscuole Kiwi" />
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold mb-3 italic">{t.offices.buonarroti.title}</h3>

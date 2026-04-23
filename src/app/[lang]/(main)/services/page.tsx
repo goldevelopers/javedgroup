@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 import { useLanguage } from '@/lib/LanguageContext';
 
 export default function ServicesPage() {
@@ -38,7 +38,7 @@ export default function ServicesPage() {
                 <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
                     <div className="animate-reveal">
                         <div className="h-24 w-auto mb-8 relative">
-                            <Image src="/logos/Javed_Viaggi.svg" width={200} height={80} className="h-full w-auto object-contain" alt="Javed Viaggi" />
+                            <img src={assetPath("/logos/Javed_Viaggi.svg")} width={200} height={80} className="h-full w-auto object-contain" alt="Javed Viaggi" />
                         </div>
                         <h2 className="text-4xl font-extrabold mb-8 italic">{t.viaggi.title}</h2>
                         <p className="text-gray-500 text-lg leading-relaxed mb-10 font-light">{t.viaggi.description}</p>
@@ -52,7 +52,7 @@ export default function ServicesPage() {
                         </div>
                     </div>
                     <div className="animate-reveal">
-                        <Image src="/assets/viaggi.png" width={600} height={400} className="rounded-[3rem] shadow-2xl transition-transform duration-700 hover:scale-[1.02]" alt="Javed Viaggi" />
+                        <img src={assetPath("/assets/viaggi.png")} width={600} height={400} className="rounded-[3rem] shadow-2xl transition-transform duration-700 hover:scale-[1.02]" alt="Javed Viaggi" />
                     </div>
                 </div>
             </section>
@@ -62,7 +62,7 @@ export default function ServicesPage() {
                 <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row-reverse gap-20 items-center">
                     <div className="md:w-1/2 animate-reveal">
                         <div className="h-24 w-auto mb-8 relative">
-                            <Image src="/logos/Agenzia_Javed.svg" width={200} height={80} className="h-full w-auto object-contain" alt="Agenzia Javed" />
+                            <img src={assetPath("/logos/Agenzia_Javed.svg")} width={200} height={80} className="h-full w-auto object-contain" alt="Agenzia Javed" />
                         </div>
                         <h2 className="text-4xl font-extrabold mb-8 italic">{t.agenzia.title}</h2>
                         <p className="text-gray-500 text-lg leading-relaxed mb-10 font-light">{t.agenzia.description}</p>
@@ -76,7 +76,7 @@ export default function ServicesPage() {
                         </div>
                     </div>
                     <div className="md:w-1/2 animate-reveal">
-                        <Image src="/assets/agenzia.png" width={600} height={400} className="rounded-[3rem] shadow-2xl transition-transform duration-700 hover:scale-[1.02]" alt="Agenzia Javed" />
+                        <img src={assetPath("/assets/agenzia.png")} width={600} height={400} className="rounded-[3rem] shadow-2xl transition-transform duration-700 hover:scale-[1.02]" alt="Agenzia Javed" />
                     </div>
                 </div>
             </section>
@@ -86,7 +86,7 @@ export default function ServicesPage() {
                 <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
                     <div className="animate-reveal">
                         <div className="h-24 w-auto mb-8 relative">
-                            <Image src="/logos/Autoscuole_Kiwi.svg" width={250} height={80} className="h-full w-auto object-contain" alt="Autoscuole Kiwi" />
+                            <img src={assetPath("/logos/Autoscuole_Kiwi.svg")} width={250} height={80} className="h-full w-auto object-contain" alt="Autoscuole Kiwi" />
                         </div>
                         <h2 className="text-4xl font-extrabold mb-8 italic">{t.kiwi.title}</h2>
                         <p className="text-gray-500 text-lg leading-relaxed mb-10 font-light">{t.kiwi.description}</p>
@@ -100,7 +100,7 @@ export default function ServicesPage() {
                         </div>
                     </div>
                     <div className="animate-reveal">
-                        <Image src="/assets/kiwi.png" width={600} height={400} className="rounded-[3rem] shadow-2xl transition-transform duration-700 hover:scale-[1.02]" alt="Autoscuole Kiwi" />
+                        <img src={assetPath("/assets/kiwi.png")} width={600} height={400} className="rounded-[3rem] shadow-2xl transition-transform duration-700 hover:scale-[1.02]" alt="Autoscuole Kiwi" />
                     </div>
                 </div>
             </section>
@@ -110,7 +110,7 @@ export default function ServicesPage() {
                 <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row-reverse gap-20 items-center">
                     <div className="md:w-1/2 animate-reveal">
                         <div className="h-24 w-auto mb-8 brightness-0 invert relative">
-                            <Image src="/logos/JB_Agency.svg" width={200} height={80} className="h-full w-auto object-contain" alt="JB Agency" />
+                            <img src={assetPath("/logos/JB_Agency.svg")} width={200} height={80} className="h-full w-auto object-contain" alt="JB Agency" />
                         </div>
                         <h2 className="text-4xl font-extrabold mb-8 italic">{t.assicurazioni.title}</h2>
                         <p className="text-gray-400 text-lg leading-relaxed mb-10 font-light">{t.assicurazioni.description}</p>
@@ -124,7 +124,7 @@ export default function ServicesPage() {
                         </div>
                     </div>
                     <div className="md:w-1/2 animate-reveal">
-                        <Image src="/assets/jb_agency.png" width={600} height={400} className="rounded-[3rem] opacity-90 border border-white/5 transition-transform duration-700 hover:scale-[1.02]" alt="JB Agency" />
+                        <img src={assetPath("/assets/jb_agency.png")} width={600} height={400} className="rounded-[3rem] opacity-90 border border-white/5 transition-transform duration-700 hover:scale-[1.02]" alt="JB Agency" />
                     </div>
                 </div>
             </section>

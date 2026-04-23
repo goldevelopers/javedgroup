@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 
 export default function AgenziaAbout() {
     const { t, loading } = useI18n('about');
@@ -35,7 +36,7 @@ export default function AgenziaAbout() {
                         </p>
                     </div>
                     <div className="animate-reveal relative px-10">
-                        <img src="/images/about/agenzia.png"
+                        <img src={assetPath("/images/about/agenzia.png")}
                             className="rounded-[3.5rem] shadow-premium h-[600px] w-full object-cover"
                             alt="Ufficio Agenzia Javed" />
                     </div>

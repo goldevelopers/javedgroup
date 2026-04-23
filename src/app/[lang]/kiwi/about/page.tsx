@@ -3,6 +3,7 @@
 
 import React, { useEffect } from 'react';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 
 export default function KiwiAbout() {
     const { t, loading } = useI18n('about');
@@ -36,7 +37,7 @@ export default function KiwiAbout() {
                         </p>
                     </div>
                     <div className="animate-reveal relative px-10">
-                        <img src="/images/about/kiwi.png"
+                        <img src={assetPath("/images/about/kiwi.png")}
                             className="rounded-[3.5rem] shadow-premium h-[600px] w-full object-cover" alt="Driving Lesson" />
                     </div>
                 </div>

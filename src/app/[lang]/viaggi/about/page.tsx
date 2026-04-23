@@ -3,6 +3,7 @@
 
 import React, { useEffect } from 'react';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 
 export default function ViaggiAbout() {
     const { t, loading } = useI18n('about');
@@ -37,7 +38,7 @@ export default function ViaggiAbout() {
                     </div>
                     <div className="animate-reveal relative">
                         <div className="absolute inset-0 bg-teal/10 rounded-[3.5rem] rotate-3 -z-10"></div>
-                        <img src="/images/about/viaggi.png"
+                        <img src={assetPath("/images/about/viaggi.png")}
                             className="rounded-[3.5rem] shadow-premium h-[600px] w-full object-cover" alt="Travel Mission" />
                     </div>
                 </div>

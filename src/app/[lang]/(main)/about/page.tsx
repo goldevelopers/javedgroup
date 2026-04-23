@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import Image from 'next/image';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 
 export default function About() {
     const { t, loading } = useI18n('about');
@@ -63,10 +63,10 @@ export default function About() {
                         <p className="text-gray-500 font-light">{t.ecosystem.subtitle}</p>
                     </div>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 items-center justify-items-center opacity-60 hover:opacity-100 transition-opacity duration-700 animate-reveal">
-                        <Image src="/logos/Javed_Viaggi.svg" width={150} height={60} className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="Javed Viaggi" />
-                        <Image src="/logos/Agenzia_Javed.svg" width={150} height={60} className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="Agenzia Javed" />
-                        <Image src="/logos/Autoscuole_Kiwi.svg" width={200} height={60} className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="Autoscuole Kiwi" />
-                        <Image src="/logos/JB_Agency.svg" width={150} height={50} className="h-12 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="JB Agency" />
+                        <img src={assetPath("/logos/Javed_Viaggi.svg")} width={150} height={60} className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="Javed Viaggi" />
+                        <img src={assetPath("/logos/Agenzia_Javed.svg")} width={150} height={60} className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="Agenzia Javed" />
+                        <img src={assetPath("/logos/Autoscuole_Kiwi.svg")} width={200} height={60} className="h-16 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="Autoscuole Kiwi" />
+                        <img src={assetPath("/logos/JB_Agency.svg")} width={150} height={50} className="h-12 w-auto grayscale hover:grayscale-0 transition-all duration-500" alt="JB Agency" />
                     </div>
                 </div>
             </section>

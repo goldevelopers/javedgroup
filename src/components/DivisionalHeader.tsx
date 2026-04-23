@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import { assetPath } from '@/lib/assetPath';
 import { useLanguage } from '@/lib/LanguageContext';
 import { useSite } from '@/lib/SiteContext';
 import { siteBaseUrls } from '@/lib/siteConfig';
@@ -68,7 +68,7 @@ const DivisionalHeader = ({
       <nav id="navbar" className={`fixed top-0 inset-x-0 z-50 glass ${scrolled ? 'scrolled' : ''}`}>
         <div className={`max-w-7xl mx-auto px-6 flex justify-between items-center transition-all duration-500 ${scrolled ? 'h-16' : 'h-20'}`}>
           <Link href={l('')} className="flex items-center gap-4 group">
-            <Image src={logo} alt={divisionName} width={150} height={40} className="h-10 w-auto object-contain" />
+            <img src={assetPath(logo)} alt={divisionName} className="h-10 w-auto object-contain" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-8 font-bold">

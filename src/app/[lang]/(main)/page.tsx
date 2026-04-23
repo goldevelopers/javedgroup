@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useI18n } from '@/lib/useI18n';
+import { assetPath } from '@/lib/assetPath';
 import { useLanguage } from '@/lib/LanguageContext';
 
 export default function Home() {
@@ -41,13 +41,11 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <div className="absolute top-[-10%] right-[-5%] w-[700px] h-[700px] bg-teal/20 rounded-full blur-[120px] animate-pulse duration-[10s]"></div>
           <div className="absolute bottom-[-10%] left-[-5%] w-[500px] h-[500px] bg-skyblue/10 rounded-full blur-[100px] animate-pulse duration-[15s]"></div>
-          <Image
-            src="/assets/hero_bg.png"
+          <img
+            src={assetPath("/assets/hero_bg.png")}
             alt="Hero Background"
-            fill
-            className="object-cover mix-blend-overlay opacity-30 scale-110"
+            className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-30 scale-110"
             style={{ transform: `translateY(${scrollY * 0.1}px) scale(1.1)` }}
-            priority
           />
         </div>
 
@@ -110,7 +108,7 @@ export default function Home() {
             {/* Viaggi */}
             <div className="service-card animate-reveal bg-white text-navy group">
               <div className="h-16 w-auto mb-8 transition-transform duration-500 group-hover:scale-110 relative">
-                <Image src="/logos/Javed_Viaggi.svg" alt="Javed Viaggi" width={150} height={60} className="h-full w-auto object-contain" />
+                <img src={assetPath("/logos/Javed_Viaggi.svg")} alt="Javed Viaggi" className="h-full w-auto object-contain" />
               </div>
               <h3 className="text-xl font-bold mb-4">{t.services.viaggi.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-8">{t.services.viaggi.description}</p>
@@ -122,7 +120,7 @@ export default function Home() {
             {/* Agenzia */}
             <div className="service-card animate-reveal bg-white text-navy group">
               <div className="h-16 w-auto mb-8 transition-transform duration-500 group-hover:scale-110 relative">
-                <Image src="/logos/Agenzia_Javed.svg" alt="Agenzia Javed" width={150} height={60} className="h-full w-auto object-contain" />
+                <img src={assetPath("/logos/Agenzia_Javed.svg")} alt="Agenzia Javed" className="h-full w-auto object-contain" />
               </div>
               <h3 className="text-xl font-bold mb-4">{t.services.agenzia.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-8">{t.services.agenzia.description}</p>
@@ -134,7 +132,7 @@ export default function Home() {
             {/* Kiwi */}
             <div className="service-card animate-reveal bg-white text-navy group">
               <div className="h-16 w-auto mb-8 transition-transform duration-500 group-hover:scale-110 relative">
-                <Image src="/logos/Autoscuole_Kiwi.svg" alt="Autoscuole Kiwi" width={200} height={60} className="h-full w-auto object-contain" />
+                <img src={assetPath("/logos/Autoscuole_Kiwi.svg")} alt="Autoscuole Kiwi" className="h-full w-auto object-contain" />
               </div>
               <h3 className="text-xl font-bold mb-4">{t.services.kiwi.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-8">{t.services.kiwi.description}</p>
@@ -146,7 +144,7 @@ export default function Home() {
             {/* Assicurazioni */}
             <div className="service-card animate-reveal bg-white text-navy group">
               <div className="h-16 w-auto mb-8 transition-transform duration-500 group-hover:scale-110 relative">
-                <Image src="/logos/JB_Agency.svg" alt="JB Agency" width={150} height={60} className="h-full w-auto object-contain" />
+                <img src={assetPath("/logos/JB_Agency.svg")} alt="JB Agency" className="h-full w-auto object-contain" />
               </div>
               <h3 className="text-xl font-bold mb-4">{t.services.assicurazioni.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed mb-8">{t.services.assicurazioni.description}</p>
