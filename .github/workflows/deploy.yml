@@ -35,6 +35,7 @@ jobs:
         env:
           NEXT_PUBLIC_ENABLED_LOCALES: it,en,ur
           NEXT_PUBLIC_BASE_PATH: /javedgroup
+          NEXT_PUBLIC_ROUTING_MODE: path
 
       - name: Debug — verify basePath in built output
         run: |
