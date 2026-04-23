@@ -148,7 +148,7 @@ NEXT_PUBLIC_ENABLED_LOCALES=it,en
    ```
 5. Update `siteBaseUrls` and `siteDisplayNames` in `siteConfig.ts`
 6. Create the route folder `src/app/[lang]/newsite/` with pages and a client layout
-
+test
 ---
 
 ## Environment Variables
