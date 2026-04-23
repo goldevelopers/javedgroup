@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "title": "Home | Javed Viaggi",
+    "description": "Welcome to Javed Viaggi."
+  },
+  "hero": {
+    "badge": "Explore Beyond Horizons",
+    "title": "The World <br><span class='text-teal'>In One Trip.</span>",
+    "subtitle": "From international air tickets to tailor-made vacation packages. Your adventure starts here, in Gallarate.",
+    "cta_primary": "Our Services",
+    "cta_secondary": "Speak with an Expert"
+  },
+  "featured": {
+    "title": "Dream Destinations",
+    "subtitle": "Discover our exclusive proposals for unforgettable experiences.",
+    "view_all": "View all",
+    "items": [
+      {
+        "tag": "Tropical Paradise",
+        "name": "Maldives",
+        "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "tag": "Modern Elegance",
+        "name": "Dubai",
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "tag": "Cultural Journey",
+        "name": "Thailand",
+        "image": "https://images.unsplash.com/photo-1528181304800-2f140819ad9c?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for your next takeoff?",
+    "phone_label": "Call Now: 0331 781723",
+    "button": "Request Quote"
+  }
+}

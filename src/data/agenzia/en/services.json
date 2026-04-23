@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "Our Services | Agenzia Javed",
+    "description": "Discover the services offered by Agenzia Javed."
+  },
+  "hero": {
+    "title": "Tailored Services."
+  },
+  "fiscale": {
+    "title": "Tax Area (CAF)",
+    "items": [
+      "Model 730 & RED",
+      "ISEE / DSU Declaration",
+      "IMU & TASI Calculation",
+      "Energy & Social Bonuses"
+    ]
+  },
+  "previdenza": {
+    "title": "Social Security (Patronato)",
+    "items": [
+      "Pension Inquiries",
+      "Unemployment (NASpI)",
+      "Universal Single Allowance",
+      "Civil Disability"
+    ]
+  },
+  "amministrative": {
+    "title": "Administrative Procedures",
+    "description": "We offer support for the renewal of residence permits, Italian citizenship, and family reunifications with dedicated 24-hour assistance.",
+    "items": [
+      "Residence Permits",
+      "Police Station Appointment Booking"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "title": "I Nostri Servizi | Autoscuole Kiwi",
+    "description": "Scopri i servizi offerti da Autoscuole Kiwi."
+  },
+  "hero": {
+    "title": "Scegli la tua Corsia.",
+    "subtitle": "Offriamo percorsi formativi completi per ogni tipo di veicolo, con simulazioni d'esame e lezioni personalizzate."
+  },
+  "items": [
+    {
+      "cat": "Cat. A / B",
+      "title": "Privati",
+      "description": "Patenti AM, A1, A2, A per motocicli e B, BE per autovetture. Corsi teorici quotidiani mattina e sera.",
+      "cta": "Richiedi Info",
+      "theme": "light"
+    },
+    {
+      "cat": "Cat. C / D / E",
+      "title": "Professionali",
+      "description": "Abilitazioni per mezzi pesanti, autobus e rimorchi. Corsi CQC merci e persone con formatori certificati.",
+      "cta": "Prenota Ora",
+      "theme": "dark"
+    },
+    {
+      "cat": "⚓",
+      "title": "Patenti Nautiche",
+      "description": "Corsi per patente nautica entro le 12 miglia o senza limiti, vela e motore.",
+      "cta": "Salpa con Noi",
+      "theme": "skyblue"
+    }
+  ]
+}

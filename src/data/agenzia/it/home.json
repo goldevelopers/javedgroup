@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "Home | Agenzia Javed",
+    "description": "Benvenuti in Agenzia Javed."
+  },
+  "hero": {
+    "badge": "Soluzioni Amministrative",
+    "title": "Supporto Vero.<br>Senza Complicazioni.",
+    "subtitle": "Dalla compilazione ISEE alla gestione CAF e Patronato. Siamo il punto di riferimento a Gallarate per le tue pratiche quotidiane.",
+    "cta_primary": "Scopri i Servizi",
+    "cta_secondary": "Prenota Appuntamento"
+  },
+  "highlights": {
+    "title": "Efficienza in primo piano",
+    "subtitle": "Gestiamo le tue pratiche con la massima precisione, riducendo i tempi di attesa e massimizzando i tuoi benefici.",
+    "items": [
+      {
+        "title": "CAF & Patronato",
+        "description": "Modelli 730, Unico, ISEE, prestazioni INPS, disoccupazione e pratiche pensione.",
+        "link": "Dettagli"
+      },
+      {
+        "title": "Supporto Aziende",
+        "description": "Apertura Partita IVA, visure camerali, fatturazione elettronica e consulenza contabile.",
+        "link": "Dettagli"
+      },
+      {
+        "title": "Pratiche Casa",
+        "description": "Registrazione contratti d'affitto, volture utenze e assistenza per detrazioni fiscali.",
+        "link": "Dettagli"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pratiche in scadenza? Non aspettare.",
+    "phone_label": "Chiama Ora: 0331 245274",
+    "button": "Prenota un Appuntamento"
+  }
+}

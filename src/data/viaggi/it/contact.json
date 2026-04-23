@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Contattaci | Javed Viaggi",
+    "description": "Mettiti in contatto con Javed Viaggi."
+  },
+  "hero": {
+    "title": "Contattaci<br><span class=\"text-teal\">Oggi</span>"
+  },
+  "info": {
+    "office": {
+      "title": "Sede Gallarate",
+      "address": "Via G. Parini, 2, 21013 Gallarate (VA)"
+    },
+    "contacts": {
+      "title": "Recapiti Telefonici",
+      "phone": "T. +39 0331 781723",
+      "email": "Email: info@javedviaggi.it"
+    }
+  },
+  "form": {
+    "title": "Pianifica il tuo Viaggio",
+    "name": "Nome",
+    "email": "E-mail",
+    "type_placeholder": "Tipo di viaggio...",
+    "types": [
+      "Volo",
+      "Crociera",
+      "Vacanze",
+      "Visti"
+    ],
+    "message": "Raccontaci la tua idea...",
+    "submit": "Invia Messaggio"
+  }
+}

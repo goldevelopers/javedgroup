@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "I Nostri Servizi | Agenzia Javed",
+    "description": "Scopri i servizi offerti da Agenzia Javed."
+  },
+  "hero": {
+    "title": "Servizi su Misura."
+  },
+  "fiscale": {
+    "title": "Area Fiscale (CAF)",
+    "items": [
+      "Modello 730 & RED",
+      "Dichiarazione ISEE / DSU",
+      "Calcolo IMU & TASI",
+      "Bonus Energia & Sociali"
+    ]
+  },
+  "previdenza": {
+    "title": "Previdenza (Patronato)",
+    "items": [
+      "Domande di Pensione",
+      "Disoccupazione (NASpI)",
+      "Assegno Unico Universale",
+      "Invalidità Civile"
+    ]
+  },
+  "amministrative": {
+    "title": "Pratiche Amministrative",
+    "description": "Offriamo supporto per il rinnovo di permessi di soggiorno, cittadinanza italiana e ricongiungimenti familiari con assistenza dedicata h24.",
+    "items": [
+      "Permessi di Soggiorno",
+      "Prenotazione Appuntamenti Questura"
+    ]
+  }
+}

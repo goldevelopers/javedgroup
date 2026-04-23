@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "title": "Home | Javed Viaggi",
+    "description": "Benvenuti in Javed Viaggi."
+  },
+  "hero": {
+    "badge": "Explore Beyond Horizons",
+    "title": "Il Mondo <br><span class='text-teal'>In un Viaggio.</span>",
+    "subtitle": "Dalla biglietteria internazionale ai pacchetti vacanze su misura. La tua avventura inizia qui, a Gallarate.",
+    "cta_primary": "I Nostri Servizi",
+    "cta_secondary": "Parla con un Esperto"
+  },
+  "featured": {
+    "title": "Destinazioni da Sogno",
+    "subtitle": "Scopri le nostre proposte esclusive per vivere esperienze indimenticabili.",
+    "view_all": "Vedi tutte",
+    "items": [
+      {
+        "tag": "Tropical Paradise",
+        "name": "Maldive",
+        "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "tag": "Modern Elegance",
+        "name": "Dubai",
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "tag": "Cultural Journey",
+        "name": "Thailandia",
+        "image": "https://images.unsplash.com/photo-1528181304800-2f140819ad9c?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronti per il prossimo decollo?",
+    "phone_label": "Chiama Ora: 0331 781723",
+    "button": "Richiedi Preventivo"
+  }
+}

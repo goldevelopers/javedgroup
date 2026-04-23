@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "About Us | Javed Group",
+    "description": "Learn more about Javed Group."
+  },
+  "hero": {
+    "title": "Our Vision",
+    "subtitle": "Since 2013, we have been building bridges between people and their goals through excellent services and a unique human approach."
+  },
+  "story": {
+    "title": "Over 10 Years of Dedication",
+    "p1": "Javed Group was born in Gallarate with the goal of becoming a reference point for the local and international community.",
+    "p2": "Our strength lies in multidisciplinarity: a single core that coordinates travel, mobility, tax and insurance consultancy with the same obsessive attention to detail."
+  },
+  "stats": {
+    "foundation": "Founding Year",
+    "business": "Business Areas",
+    "clients": "Clients Served",
+    "commitment": "Commitment"
+  },
+  "ecosystem": {
+    "title": "Our Ecosystem",
+    "subtitle": "Four excellences united under a single vision of service and professionalism."
+  }
+}

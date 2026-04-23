@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "About Us | Agenzia Javed",
+    "description": "Learn more about Agenzia Javed."
+  },
+  "hero": {
+    "badge": "Transparency & Reliability",
+    "title": "By your side for your rights.",
+    "p1": "Agenzia Javed was born with the aim of simplifying the relationship between the citizen and the public administration.",
+    "p2": "As the main pillar of Javed Group, we offer a multidisciplinary service ranging from tax consultancy to social security support, guaranteeing precision and timeliness in every procedure."
+  },
+  "sections": {
+    "experience": {
+      "title": "Consolidated Experience",
+      "text": "Years of activity in the CAF and Patronato sector allow us to competently manage even the most complex situations, providing clear answers to our clients."
+    },
+    "community": {
+      "title": "Community Support",
+      "text": "We are proud to be a point of reference for the Gallarate community, fostering integration and access to essential services through multilingual assistance."
+    }
+  }
+}

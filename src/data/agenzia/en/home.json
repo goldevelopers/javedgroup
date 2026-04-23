@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "Home | Agenzia Javed",
+    "description": "Welcome to Agenzia Javed."
+  },
+  "hero": {
+    "badge": "Administrative Solutions",
+    "title": "Real Support.<br>Without Complications.",
+    "subtitle": "From ISEE completion to CAF and Patronato management. We are the point of reference in Gallarate for your daily procedures.",
+    "cta_primary": "Discover Services",
+    "cta_secondary": "Book Appointment"
+  },
+  "highlights": {
+    "title": "Efficiency in Focus",
+    "subtitle": "We manage your procedures with maximum precision, reducing waiting times and maximizing your benefits.",
+    "items": [
+      {
+        "title": "CAF & Patronato",
+        "description": "730 models, Unico, ISEE, INPS benefits, unemployment, and pension procedures.",
+        "link": "Details"
+      },
+      {
+        "title": "Business Support",
+        "description": "VAT opening, chamber of commerce records, electronic invoicing, and accounting consultancy.",
+        "link": "Details"
+      },
+      {
+        "title": "Home Procedures",
+        "description": "Lease contract registration, utility transfers, and tax deduction assistance.",
+        "link": "Details"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Deadlines approaching? Don't wait.",
+    "phone_label": "Call Now: 0331 245274",
+    "button": "Book an Appointment"
+  }
+}

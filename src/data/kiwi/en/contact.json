@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Contact Us | Autoscuole Kiwi",
+    "description": "Get in touch with Autoscuole Kiwi."
+  },
+  "hero": {
+    "title": "Start your<br><span class=\"text-lime\">Race.</span>"
+  },
+  "info": {
+    "office": {
+      "title": "Headquarters",
+      "address": "Via Buonarroti, 1, 21013 Gallarate (VA)"
+    },
+    "emergency": {
+      "title": "Quick Contact",
+      "phone": "T. 0331 797139",
+      "email": "Email: info@kiwigroup.it"
+    },
+    "quote": "Prepare with the best, drive with confidence."
+  },
+  "form": {
+    "title": "Request Registration Quote",
+    "name": "Name",
+    "email": "Email",
+    "type_placeholder": "License Type...",
+    "types": [
+      "License A (Moto)",
+      "License B (Car)",
+      "License C/D (Heavy)",
+      "Nautical License",
+      "Points Recovery"
+    ],
+    "message": "Any questions...",
+    "submit": "Lock the Price"
+  }
+}

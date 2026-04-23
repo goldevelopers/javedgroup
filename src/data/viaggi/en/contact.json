@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Contact Us | Javed Viaggi",
+    "description": "Get in touch with Javed Viaggi."
+  },
+  "hero": {
+    "title": "Planned with Passion.<br><span class=\"text-teal\">Traveled</span> with Ease."
+  },
+  "info": {
+    "office": {
+      "title": "Main Office",
+      "address": "Via G. Parini, 4, 21013 Gallarate (VA)"
+    },
+    "contacts": {
+      "title": "Direct Lines",
+      "phone": "T. +39 0331 781723",
+      "email": "Email: info@javedviaggi.it"
+    }
+  },
+  "form": {
+    "title": "Request a Quote",
+    "name": "Full Name",
+    "email": "Email Address",
+    "type_placeholder": "Trip Type...",
+    "types": [
+      "Vacation Package",
+      "Flight Ticket",
+      "Visa Assistance",
+      "Corporate Travel"
+    ],
+    "message": "Tell us about your next destination...",
+    "submit": "Send Request"
+  }
+}

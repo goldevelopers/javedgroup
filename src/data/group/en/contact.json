@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "Contact Us | Javed Group",
+    "description": "Get in touch with Javed Group."
+  },
+  "hero": {
+    "title": "Always by Your Side",
+    "subtitle": "Your serenity is our goal. Contact us for a personalized consultation in Gallarate."
+  },
+  "offices": {
+    "title": "Offices & Contacts",
+    "parini": {
+      "title": "Parini Offices (Services & Procedures)",
+      "address": "Via G. Parini, 2 & 4, 21013 Gallarate (VA)",
+      "viaggi": "+39 0331 781723 (Travel)",
+      "agenzia": "+39 0331 245274 (Agency)"
+    },
+    "buonarroti": {
+      "title": "Buonarroti Office (Mobility & Safety)",
+      "address": "Via Buonarroti, 1, 21013 Gallarate (VA)",
+      "kiwi": "0331 797139 (Driving School)",
+      "assicurazioni": "0331 701610 (Insurance)"
+    }
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "name": "First Name",
+    "surname": "Last Name",
+    "area_select": "Select an area...",
+    "areas": {
+      "viaggi": "Travel",
+      "agenzia": "Agency/CAF",
+      "kiwi": "Driving School",
+      "assicurazioni": "Insurance"
+    },
+    "message": "Message",
+    "submit": "Send Request"
+  }
+}

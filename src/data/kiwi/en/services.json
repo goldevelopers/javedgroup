@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "title": "Our Services | Autoscuole Kiwi",
+    "description": "Discover the services offered by Autoscuole Kiwi."
+  },
+  "hero": {
+    "title": "Choose your Lane.",
+    "subtitle": "We offer complete training paths for every type of vehicle, with exam simulations and personalized lessons."
+  },
+  "items": [
+    {
+      "cat": "Cat. A / B",
+      "title": "Private",
+      "description": "Licenses AM, A1, A2, A for motorcycles and B, BE for cars. Daily theoretical courses morning and evening.",
+      "cta": "Request Info",
+      "theme": "light"
+    },
+    {
+      "cat": "Cat. C / D / E",
+      "title": "Professional",
+      "description": "Abilitations for heavy vehicles, buses, and trailers. CQC courses for goods and people with certified trainers.",
+      "cta": "Book Now",
+      "theme": "dark"
+    },
+    {
+      "cat": "⚓",
+      "title": "Nautical Licenses",
+      "description": "Courses for nautical license within 12 miles or without limits, sail and motor.",
+      "cta": "Sail with Us",
+      "theme": "skyblue"
+    }
+  ]
+}

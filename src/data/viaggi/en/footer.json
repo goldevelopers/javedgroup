@@ -1,0 +1,11 @@
+{
+  "description": "Part of Javed Group. Experts in international travel and personalized assistance since 2013.",
+  "links_title": "Travel",
+  "links": [
+    { "label": "International Flights", "href": "/viaggi/services" },
+    { "label": "Cruises", "href": "/viaggi/services" },
+    { "label": "Honeymoons", "href": "/viaggi/services" },
+    { "label": "Visas & Documents", "href": "/viaggi/services" }
+  ],
+  "copyright": "Javed Travel - Part of Javed Group. Via G. Parini 2, Gallarate."
+}

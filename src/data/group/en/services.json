@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Our Services | Javed Group",
+    "description": "Discover the services offered by Javed Group."
+  },
+  "hero": {
+    "title": "Excellence in Every Sector",
+    "subtitle": "Professional solutions designed to simplify your daily life."
+  },
+  "viaggi": {
+    "title": "Javed Travel",
+    "description": "Complete planning of your trip, ensuring comfort and assistance at every stage.",
+    "cta_call": "Call Now",
+    "cta_visit": "Visit Official Site"
+  },
+  "agenzia": {
+    "title": "Javed Agency",
+    "description": "Complete management of administrative tasks, tax assistance (CAF), and social security advice with speed and precision.",
+    "cta_call": "Contact Office",
+    "cta_visit": "Visit Official Site"
+  },
+  "kiwi": {
+    "title": "Kiwi Driving School",
+    "description": "Learn to drive with the best. Modern teaching methods and qualified instructors.",
+    "cta_call": "Call School",
+    "cta_visit": "Visit Official Site"
+  },
+  "assicurazioni": {
+    "title": "JB Agency",
+    "description": "We protect your present and your future with comprehensive insurance policies.",
+    "cta_call": "Insure Now",
+    "cta_visit": "Visit Official Site"
+  }
+}

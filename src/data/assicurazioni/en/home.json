@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "title": "Home | JB Agency",
+    "description": "Welcome to JB Agency."
+  },
+  "hero": {
+    "badge": "Premium Consulting",
+    "title": "Protect Your<br><span class=\"text-teal\">Vision.</span>",
+    "subtitle": "From life insurance to corporate risk management. JB Agency is the strategic partner that transforms uncertainties into secure growth opportunities.",
+    "cta_primary": "Explore Solutions",
+    "cta_secondary": "Book Elite Consultation"
+  },
+  "services_grid": {
+    "title": "Integrated Services.",
+    "subtitle": "Vertical solutions designed for asset protection and business development.",
+    "items": [
+      {
+        "title": "Insurance",
+        "description": "Car, life, health, home, and professional protection policies with the best brokers.",
+        "features": [
+          "Car & Moto RC",
+          "Legal Protection",
+          "Supplementary Pension"
+        ],
+        "link_label": "Details",
+        "theme": "teal"
+      },
+      {
+        "title": "Business Consulting",
+        "description": "Financial analysis, business planning, and optimization of operational processes.",
+        "features": [
+          "Start-up Consulting",
+          "Digital Transformation",
+          "Risk Management"
+        ],
+        "link_label": "Details",
+        "theme": "skyblue"
+      }
+    ]
+  },
+  "why_us": {
+    "title": "The JB Agency<br>Approach.",
+    "description": "We don't sell products; we build security architectures. Our method is based on deep listening and data analysis to offer solutions that are not just reactive but proactive.",
+    "steps": [
+      {
+        "number": "01.",
+        "title": "Initial Audit",
+        "text": "Complete analysis of the current state and potential risks."
+      },
+      {
+        "number": "02.",
+        "title": "Customization",
+        "text": "Creation of a tailored action plan for specific objectives."
+      }
+    ]
+  }
+}

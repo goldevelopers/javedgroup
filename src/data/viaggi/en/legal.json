@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "title": "Legal & Privacy | Javed Viaggi",
+    "description": "Legal information and privacy policy for Javed Viaggi."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "This Privacy Policy describes how Javed Group collects, uses, and protects your personal data.",
+    "sections": [
+      {
+        "title": "1. Data Collection",
+        "content": "We collect information voluntarily provided through contact forms, such as name, email, and phone number, in order to respond to your requests for consultation."
+      },
+      {
+        "title": "2. Use of Data",
+        "content": "The collected data is used exclusively for administrative purposes and to provide the requested services."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "subtitle": "These legal notes govern access to and use of the Javed Group website.",
+    "sections": [
+      {
+        "title": "Intellectual Property",
+        "content": "All content on this site is the exclusive property of Javed Group or its respective licensors."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "subtitle": "Information on the use of cookies in compliance with current directives.",
+    "sections": [
+      {
+        "title": "What are cookies",
+        "content": "Cookies are small text files that websites visited by users send to their terminals, where they are stored to be retransmitted to the same sites at the next visit."
+      }
+    ]
+  }
+}

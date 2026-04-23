@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "title": "Home | JB Agency",
+    "description": "Benvenuti in JB Agency."
+  },
+  "hero": {
+    "badge": "Premium Consulting",
+    "title": "Proteggi la tua<br><span class=\"text-teal\">Visione.</span>",
+    "subtitle": "Dalle polizze vita alla gestione dei rischi aziendali. JB Agency è the partner strategico che trasforma le incertezze in opportunità di crescita sicura.",
+    "cta_primary": "Esplora Soluzioni",
+    "cta_secondary": "Prenota Consulenza Elite"
+  },
+  "services_grid": {
+    "title": "Servizi Integrati.",
+    "subtitle": "Soluzioni verticali progettate per la protezione del patrimonio e lo sviluppo d'impresa.",
+    "items": [
+      {
+        "title": "Assicurazioni",
+        "description": "Polizze RC Auto, vita, salute, casa e protezione professionale con i migliori broker.",
+        "features": [
+          "RC Auto & Moto",
+          "Tutela Legale",
+          "Previdenza Integrativa"
+        ],
+        "link_label": "Dettagli",
+        "theme": "teal"
+      },
+      {
+        "title": "Consulenza Aziendale",
+        "description": "Analisi finanziaria, business planning e ottimizzazione dei processi operativi.",
+        "features": [
+          "Start-up Consulting",
+          "Digital Transformation",
+          "Risk Management"
+        ],
+        "link_label": "Dettagli",
+        "theme": "skyblue"
+      }
+    ]
+  },
+  "why_us": {
+    "title": "L'approccio<br>JB Agency.",
+    "description": "Non vendiamo prodotti, costruiamo architetture di sicurezza. Il nostro metodo si basa sull'ascolto profondo e sull'analisi dei dati per offrire soluzioni che non siano solo reattive, ma proattive.",
+    "steps": [
+      {
+        "number": "01.",
+        "title": "Audit Iniziale",
+        "text": "Analisi completa dello stato attuale e dei potenziali rischi."
+      },
+      {
+        "number": "02.",
+        "title": "Personalizzazione",
+        "text": "Creazione di un piano d'azione su misura per obiettivi specifici."
+      }
+    ]
+  }
+}

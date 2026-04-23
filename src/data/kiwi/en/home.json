@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Home | Autoscuole Kiwi",
+    "description": "Welcome to Autoscuole Kiwi."
+  },
+  "hero": {
+    "badge": "Freedom Starts Here",
+    "title": "Get<br><span class=\"text-lime\">Moving.</span>",
+    "subtitle": "Your driving license in Gallarate with certified instructors, modern cars, and advanced exam simulations. Your success is guaranteed.",
+    "cta_primary": "Choose your License",
+    "cta_secondary": "First Lesson Free"
+  },
+  "stats": [
+    {
+      "value": "98%",
+      "label": "Passed"
+    },
+    {
+      "value": "15+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "5000+",
+      "label": "Licenses Issued"
+    },
+    {
+      "value": "24h",
+      "label": "Theory Support"
+    }
+  ],
+  "patenti": {
+    "title": "Our Licenses.",
+    "subtitle": "From motorcycles to heavy vehicles, we cover every category with dedicated training paths.",
+    "items": [
+      {
+        "cat": "A",
+        "title": "Motorcycle",
+        "description": "All categories: AM, A1, A2, A. For every age and power.",
+        "color": "text-lime"
+      },
+      {
+        "cat": "B",
+        "title": "Car",
+        "description": "License B, BE, also with automatic transmission. Simulator included.",
+        "color": "text-teal"
+      },
+      {
+        "cat": "C/D",
+        "title": "Professional",
+        "description": "Truck, Bus, and CQC for your professional career.",
+        "color": "text-navy"
+      },
+      {
+        "cat": "↻",
+        "title": "Renewals",
+        "description": "Doctor on site for rapid renewals and license duplicates.",
+        "color": "text-gray-200"
+      }
+    ]
+  }
+}

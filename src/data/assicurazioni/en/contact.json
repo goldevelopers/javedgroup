@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "title": "Contact Us | JB Agency",
+    "description": "Get in touch with JB Agency."
+  },
+  "hero": {
+    "title": "Let's talk about<br>your Future."
+  },
+  "info": {
+    "office": {
+      "title": "Headquarters",
+      "address": "Via G. Parini, 4, 21013 Gallarate (VA)"
+    },
+    "contacts": {
+      "title": "Elite Contacts",
+      "phone": "T. +39 0331 123456",
+      "email": "Email: info@jbagency.it"
+    }
+  },
+  "form": {
+    "title": "Consultation Request",
+    "name": "Full Name",
+    "email": "Professional Email",
+    "interest_placeholder": "Interested in...",
+    "interests": [
+      "Personal Insurance",
+      "Business Insurance",
+      "Strategic Consulting"
+    ],
+    "message": "Specific notes...",
+    "submit": "Request Contact"
+  }
+}

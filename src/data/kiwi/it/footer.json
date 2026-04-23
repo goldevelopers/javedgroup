@@ -1,0 +1,13 @@
+{
+  "description": "Parte di Javed Group. L'eccellenza nella formazione stradale a Gallarate.",
+  "links_title": "Links",
+  "links": [
+    { "label": "Patenti A/B", "href": "/kiwi/services" },
+    { "label": "Corsi Recupero Punti", "href": "/kiwi/services" },
+    { "label": "Pratiche Nautiche", "href": "/kiwi/services" }
+  ],
+  "address_title": "Location",
+  "address": "Via Buonarroti, 1, 21013 Gallarate (VA)",
+  "phone": "T. 0331 797139",
+  "copyright": "Autoscuole Kiwi - Javed Group Division"
+}

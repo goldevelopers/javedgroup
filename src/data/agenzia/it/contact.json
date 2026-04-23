@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Contattaci | Agenzia Javed",
+    "description": "Mettiti in contatto con Agenzia Javed."
+  },
+  "hero": {
+    "title": "Siamo qui<br>per te."
+  },
+  "info": {
+    "office": {
+      "title": "Ufficio Gallarate",
+      "address": "Via G. Parini, 4, 21013 Gallarate (VA)"
+    },
+    "contacts": {
+      "title": "Contatti Diretti",
+      "phone": "T. +39 0331 245274",
+      "mobile": "M. +39 392 50 50000"
+    }
+  },
+  "form": {
+    "title": "Inviaci un messaggio",
+    "name": "Nome completo",
+    "email": "E-mail",
+    "service_placeholder": "Seleziona servizio...",
+    "services": [
+      "CAF / 730",
+      "Patronato / Pensione",
+      "Permesso di Soggiorno",
+      "Pratiche Aziendali"
+    ],
+    "message": "Descrivi la tua richiesta...",
+    "submit": "Invia Richiesta"
+  }
+}

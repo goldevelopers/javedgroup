@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "I Nostri Servizi | Javed Group",
+    "description": "Scopri i servizi offerti da Javed Group."
+  },
+  "hero": {
+    "title": "Eccellenza in Ogni Settore",
+    "subtitle": "Soluzioni professionali pensate per semplificare la tua vita quotidiana."
+  },
+  "viaggi": {
+    "title": "Javed Viaggi",
+    "description": "Pianificazione completa del tuo viaggio, garantendo comfort e assistenza in ogni fase.",
+    "cta_call": "Chiama Ora",
+    "cta_visit": "Visita Sito Ufficiale"
+  },
+  "agenzia": {
+    "title": "Agenzia Javed",
+    "description": "Gestione completa di pratiche amministrative, CAF e Patronato con velocità e precisione.",
+    "cta_call": "Contatta Ufficio",
+    "cta_visit": "Visita Sito Ufficiale"
+  },
+  "kiwi": {
+    "title": "Autoscuole Kiwi",
+    "description": "Impara a guidare con i migliori. Metodi d'insegnamento moderni e istruttori qualificati.",
+    "cta_call": "Chiama Scuola",
+    "cta_visit": "Visita Sito Ufficiale"
+  },
+  "assicurazioni": {
+    "title": "JB Agency",
+    "description": "Proteggiamo il tuo presente e il tuo futuro con polizze assicurative complete.",
+    "cta_call": "Assicurati Ora",
+    "cta_visit": "Visita Sito Ufficiale"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Parte di Javed Group. Consulenza elite per la protezione e lo sviluppo del tuo futuro.",
+  "links_title": "Business",
+  "links": [
+    { "label": "Assicurazioni Vita", "href": "/assicurazioni/services" },
+    { "label": "Risk Management", "href": "/assicurazioni/services" },
+    { "label": "Fondi Pensione", "href": "/assicurazioni/services" }
+  ],
+  "address_title": "Contact",
+  "address": "Via G. Parini, 4, 21013 Gallarate (VA)",
+  "phone": "T. 0331 123456",
+  "copyright": "JB Agency - Elite Consulting Excellence"
+}

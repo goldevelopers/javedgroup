@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "Our Services | Javed Viaggi",
+    "description": "Discover the services offered by Javed Viaggi."
+  },
+  "hero": {
+    "title": "Service Excellence.",
+    "subtitle": "We plan every detail to transform your trip into a stress-free experience."
+  },
+  "flights": {
+    "title": "Air Tickets",
+    "description": "Access exclusive rates for domestic and international flights. We manage bookings for all major global airlines with 24-hour assistance.",
+    "features": [
+      "Low Cost & Business Flights",
+      "Baggage Management & Check-in",
+      "Assistance in case of delays"
+    ]
+  },
+  "visas": {
+    "title": "Visas & Documents",
+    "description": "Complete management of bureaucratic procedures for obtaining tourist and business visas for any destination worldwide.",
+    "features": [
+      "Visas for USA, India, China, Russia",
+      "Document Translation",
+      "Consular Intermediation"
+    ]
+  },
+  "packages": {
+    "title": "Holiday Packages",
+    "description": "Unforgettable stays in the best resorts in the world. We collaborate with the main tour operators to offer you maximum quality.",
+    "features": [
+      "Honeymoons",
+      "Group Tours",
+      "Luxury Cruises"
+    ]
+  },
+  "emergency": {
+    "title": "Emergency Support",
+    "description": "You are never alone. One of our experts is always available to handle cancellations, re-protections, or emergencies during your stay.",
+    "features": [
+      "24/7 Telephone Assistance",
+      "Real-time Itinerary Changes"
+    ]
+  }
+}

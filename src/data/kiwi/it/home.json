@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "Home | Autoscuole Kiwi",
+    "description": "Benvenuti in Autoscuole Kiwi."
+  },
+  "hero": {
+    "badge": "Freedom Starts Here",
+    "title": "Mettiti in<br><span class=\"text-lime\">Moto.</span>",
+    "subtitle": "La tua patente a Gallarate con istruttori certificati, auto moderne e simulazioni d'esame avanzate. Il tuo successo è garantito.",
+    "cta_primary": "Scegli la tua Patente",
+    "cta_secondary": "Prima Lezione Gratis"
+  },
+  "stats": [
+    {
+      "value": "98%",
+      "label": "Promossi"
+    },
+    {
+      "value": "15+",
+      "label": "Anni Esperienza"
+    },
+    {
+      "value": "5000+",
+      "label": "Patenti Conseguite"
+    },
+    {
+      "value": "24h",
+      "label": "Supporto Teoria"
+    }
+  ],
+  "patenti": {
+    "title": "Le nostre Patenti.",
+    "subtitle": "Dalle moto ai mezzi pesanti, copriamo ogni categoria con percorsi formativi dedicati.",
+    "items": [
+      {
+        "cat": "A",
+        "title": "Moto",
+        "description": "Tutte le categorie: AM, A1, A2, A. Per ogni età e potenza.",
+        "color": "text-lime"
+      },
+      {
+        "cat": "B",
+        "title": "Auto",
+        "description": "Patente B, BE, anche con cambio automatico. Simulatore incluso.",
+        "color": "text-teal"
+      },
+      {
+        "cat": "C/D",
+        "title": "Professionali",
+        "description": "Camion, Autobus e CQC per la tua carriera professionale.",
+        "color": "text-navy"
+      },
+      {
+        "cat": "↻",
+        "title": "Rinnovi",
+        "description": "Medico in sede per rinnovi rapidi e duplicati patente.",
+        "color": "text-gray-200"
+      }
+    ]
+  }
+}

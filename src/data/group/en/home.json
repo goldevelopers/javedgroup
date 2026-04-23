@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "Home | Javed Group",
+    "description": "Welcome to Javed Group."
+  },
+  "hero": {
+    "badge": "Professionalism since 2013",
+    "title": "Integrated <span class='text-teal'>Solutions</span> for your everyday peace of mind.",
+    "subtitle": "From travel planning to administrative services, Javed Group is your trusted partner in Gallarate.",
+    "cta_primary": "Explore Services",
+    "cta_secondary": "Contact Us Now"
+  },
+  "services": {
+    "title": "A Single Point of Reference",
+    "subtitle": "We simplify complexity through our specialized divisions.",
+    "viaggi": {
+      "title": "Javed Travel",
+      "description": "Tailor-made travel planning, international flight tickets, and visa assistance."
+    },
+    "agenzia": {
+      "title": "Javed Agency",
+      "description": "Complete management of administrative practices, tax support, and dedicated assistance."
+    },
+    "kiwi": {
+      "title": "Kiwi Driving School",
+      "description": "Educational paths for all driving license categories and safe driving courses."
+    },
+    "assicurazioni": {
+      "title": "JB Insurance Agency",
+      "description": "Personalized insurance solutions to protect your car, home, and future."
+    },
+    "view_site": "Visit Website"
+  },
+  "stats": {
+    "foundation": "Year Founded",
+    "business": "Business Sectors",
+    "clients": "Clients",
+    "commitment": "Commitment",
+    "values": {
+      "foundation": "2013",
+      "business": "4+",
+      "clients": "5k+",
+      "commitment": "100%"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "Home | Javed Group",
+    "description": "Benvenuti in Javed Group."
+  },
+  "hero": {
+    "badge": "Professionalismo dal 2013",
+    "title": "Soluzioni <span class='text-teal'>Integrate</span> per la tua serenità quotidiana.",
+    "subtitle": "Dalla pianificazione dei tuoi viaggi alla gestione delle pratiche amministrative, Javed Group è il tuo partner di fiducia a Gallarate.",
+    "cta_primary": "Esplora i Servizi",
+    "cta_secondary": "Contattaci Ora"
+  },
+  "services": {
+    "title": "Un Unico Punto di Riferimento",
+    "subtitle": "Semplifichiamo la complessità attraverso le nostre divisioni specializzate.",
+    "viaggi": {
+      "title": "Javed Viaggi",
+      "description": "Pianificazione viaggi su misura, biglietteria aerea internazionale e assistenza visti."
+    },
+    "agenzia": {
+      "title": "Agenzia Javed",
+      "description": "Gestione completa di pratiche amministrative, CAF e Patronato con supporto dedicato."
+    },
+    "kiwi": {
+      "title": "Autoscuole Kiwi",
+      "description": "Percorsi formativi per il conseguimento di patenti di ogni categoria e corsi di guida sicura."
+    },
+    "assicurazioni": {
+      "title": "JB Agency",
+      "description": "Soluzioni assicurative personalizzate per proteggere la tua auto, casa e il tuo futuro."
+    },
+    "view_site": "Visita il Sito"
+  },
+  "stats": {
+    "foundation": "Anno di Fondazione",
+    "business": "Settori Business",
+    "clients": "Clienti",
+    "commitment": "Impegno",
+    "values": {
+      "foundation": "2013",
+      "business": "4+",
+      "clients": "5k+",
+      "commitment": "100%"
+    }
+  }
+}

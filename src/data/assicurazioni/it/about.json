@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Chi Siamo | JB Agency",
+    "description": "Scopri di più su JB Agency."
+  },
+  "hero": {
+    "badge": "Visione Strategica",
+    "title": "Costruiamo Sicurezza.",
+    "p1": "JB Agency è la divisione di Javed Group dedicata all'alta consulenza assicurativa e al risk management aziendale.",
+    "p2": "Il nostro obiettivo è proteggere ciò che conta di più: la tua famiglia, il tuo patrimonio e la tua impresa. Attraverso una rete di partner internazionali e un approccio analitico, forniamo soluzioni evolute che anticipano le sfide del mercato."
+  },
+  "sections": {
+    "values": {
+      "title": "Valori Elite",
+      "text": "Riservatezza, competenza tecnica e orientamento al risultato. Questi sono i pilastri che guidano ogni nostra consulenza."
+    },
+    "integration": {
+      "title": "Integrazione Globale",
+      "text": "Sfruttiamo l'ecosistema Javed Group per offrire una visione a 360 gradi, integrando aspetti legali, fiscali e assicurativi in un'unica strategia coordinata."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "title": "Legal & Privacy | Javed Group",
+    "description": "Legal information and privacy policy for Javed Group."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "This Privacy Policy describes how Javed Group collects, uses, and protects your personal data.",
+    "sections": [
+      {
+        "title": "1. Data Collection",
+        "content": "We collect information voluntarily provided through contact forms, such as name, email, and phone number, in order to respond to your consultation requests."
+      },
+      {
+        "title": "2. Data Usage",
+        "content": "The collected data is used exclusively for administrative purposes and for the provision of the requested services."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "subtitle": "These legal notes govern the access and use of the Javed Group website.",
+    "sections": [
+      {
+        "title": "Intellectual Property",
+        "content": "All contents on this site are the exclusive property of Javed Group or its respectivas licensors."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "subtitle": "Information on the use of cookies in compliance with current directives.",
+    "sections": [
+      {
+        "title": "What are cookies",
+        "content": "Cookies are small text files that websites visited by users send to their terminals, where they are stored to be retransmitted to the same sites at the next visit."
+      }
+    ]
+  }
+}

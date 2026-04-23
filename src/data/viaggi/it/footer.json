@@ -1,0 +1,11 @@
+{
+  "description": "Parte di Javed Group. Esperti in viaggi internazionali e assistenza personalizzata dal 2013.",
+  "links_title": "Viaggi",
+  "links": [
+    { "label": "Voli Internazionali", "href": "/viaggi/services" },
+    { "label": "Crociere", "href": "/viaggi/services" },
+    { "label": "Viaggi di Nozze", "href": "/viaggi/services" },
+    { "label": "Visti & Documenti", "href": "/viaggi/services" }
+  ],
+  "copyright": "Javed Viaggi - Part of Javed Group. Via G. Parini 2, Gallarate."
+}

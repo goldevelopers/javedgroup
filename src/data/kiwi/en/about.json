@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "title": "About Us | Autoscuole Kiwi",
+    "description": "Learn more about Autoscuole Kiwi."
+  },
+  "hero": {
+    "badge": "Passion for Driving",
+    "title": "Beyond the License.",
+    "p1": "Autoscuole Kiwi is not just a driving school, it is a center of excellence for road safety in Gallarate.",
+    "p2": "With the technological support and organization of Javed Group, we have revolutionized the learning of theory and practice, making them dynamic, effective, and oriented towards real road safety."
+  },
+  "features": [
+    {
+      "icon": "🚗",
+      "title": "Modern Fleet",
+      "text": "We use the latest generation vehicles to ensure comfort and safety during every hour of driving."
+    },
+    {
+      "icon": "💻",
+      "title": "Digital Method",
+      "text": "Interactive lessons and a dedicated app to practice quizzes anywhere and at any time."
+    },
+    {
+      "icon": "👨‍🏫",
+      "title": "Expert Coaches",
+      "text": "Qualified instructors who follow you with patience, preparing you not only for the exam, but for life on the road."
+    }
+  ]
+}

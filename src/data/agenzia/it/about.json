@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "Chi Siamo | Agenzia Javed",
+    "description": "Scopri di più su Agenzia Javed."
+  },
+  "hero": {
+    "badge": "Trasparenza & Affidabilità",
+    "title": "Al fianco dei tuoi diritti.",
+    "p1": "Agenzia Javed nasce con l'obiettivo di semplificare il rapporto tra il cittadino e la pubblica amministrazione.",
+    "p2": "Come colonna portante di Javed Group, offriamo un servizio multidisciplinare che spazia dalla consulenza fiscale al supporto previdenziale, garantendo precisione e tempestività in ogni pratica."
+  },
+  "sections": {
+    "experience": {
+      "title": "Esperienza Consolidata",
+      "text": "Anni di attività nel settore CAF e Patronato ci permettono di gestire con competenza anche le situazioni più complesse, fornendo risposte chiare ai nostri clienti."
+    },
+    "community": {
+      "title": "Supporto Community",
+      "text": "Siamo orgogliosi di essere un punto di riferimento per la comunità di Gallarate, favorendo l'integrazione e l'accesso ai servizi essenziali attraverso un'assistenza multilingue."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "ہم سے رابطہ کریں | Javed Group",
+    "description": "Javed Group سے رابطہ کریں."
+  },
+  "hero": {
+    "title": "ہمیشہ آپ کے ساتھ",
+    "subtitle": "آپ کا سکون ہمارا مقصد ہے۔ گالارات میں ذاتی مشورے کے لیے ہم سے رابطہ کریں۔"
+  },
+  "offices": {
+    "title": "دفاتر اور رابطے",
+    "parini": {
+      "title": "پارینی دفاتر (سروسز اور طریقہ کار)",
+      "address": "Via G. Parini, 2 & 4, 21013 Gallarate (VA)",
+      "viaggi": "+39 0331 781723 (ٹریول)",
+      "agenzia": "+39 0331 245274 (ایجنسی)"
+    },
+    "buonarroti": {
+      "title": "بوناروٹی آفس (نقل و حرکت اور حفاظت)",
+      "address": "Via Buonarroti, 1, 21013 Gallarate (VA)",
+      "kiwi": "0331 797139 (ڈرائیونگ اسکول)",
+      "assicurazioni": "0331 701610 (انشورنس)"
+    }
+  },
+  "form": {
+    "title": "ہمیں پیغام بھیجیں",
+    "name": "پہلا نام",
+    "surname": "آخری نام",
+    "area_select": "ایک علاقہ منتخب کریں...",
+    "areas": {
+      "viaggi": "ٹریول",
+      "agenzia": "ایجنسی/CAF",
+      "kiwi": "ڈرائیونگ اسکول",
+      "assicurazioni": "انشورنس"
+    },
+    "message": "پیغام",
+    "submit": "درخواست بھیجیں"
+  }
+}

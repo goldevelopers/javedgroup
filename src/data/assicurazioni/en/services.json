@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "Our Services | JB Agency",
+    "description": "Discover the services offered by JB Agency."
+  },
+  "hero": {
+    "title": "Elite Protection.",
+    "subtitle": "Total coverage for every aspect of your private and professional life."
+  },
+  "groups": [
+    {
+      "title": "Mobility",
+      "items": [
+        "Car & Moto RC",
+        "Kasko & Theft/Fire",
+        "24/7 Roadside Assistance",
+        "Glass & Natural Events"
+      ],
+      "theme": "light"
+    },
+    {
+      "title": "Assets",
+      "items": [
+        "Home Insurance",
+        "Public Liability",
+        "Life & Accident Policies",
+        "Savings Plans"
+      ],
+      "theme": "dark"
+    },
+    {
+      "title": "Business",
+      "items": [
+        "Professional Liability",
+        "Corporate Protection",
+        "Guarantees & Bonds",
+        "Risk Analysis"
+      ],
+      "theme": "light"
+    }
+  ]
+}

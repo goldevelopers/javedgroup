@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Contattaci | Autoscuole Kiwi",
+    "description": "Mettiti in contatto con Autoscuole Kiwi."
+  },
+  "hero": {
+    "title": "Inizia la tua<br><span class=\"text-lime\">Corsa.</span>"
+  },
+  "info": {
+    "office": {
+      "title": "Sede Unica",
+      "address": "Via Buonarroti, 1, 21013 Gallarate (VA)"
+    },
+    "emergency": {
+      "title": "Pronto Intervento",
+      "phone": "T. 0331 797139",
+      "email": "Email: info@kiwigroup.it"
+    },
+    "quote": "Preparati con i migliori, guida con sicurezza."
+  },
+  "form": {
+    "title": "Richiedi Preventivo Iscrizione",
+    "name": "Nome",
+    "email": "E-mail",
+    "type_placeholder": "Tipo di Patente...",
+    "types": [
+      "Patente A (Moto)",
+      "Patente B (Auto)",
+      "Patente C/D (Superiori)",
+      "Patente Nautica",
+      "Recupero Punti"
+    ],
+    "message": "Eventuali domande...",
+    "submit": "Blocca il Prezzo"
+  }
+}

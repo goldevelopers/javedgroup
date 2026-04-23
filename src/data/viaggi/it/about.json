@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "Chi Siamo | Javed Viaggi",
+    "description": "Scopri di più su Javed Viaggi."
+  },
+  "hero": {
+    "badge": "Passione & Professionalità",
+    "title": "Ogni viaggio è una storia da scrivere.",
+    "p1": "Da oltre 10 anni, la nostra missione è semplificare il mondo dei viaggi, offrendo soluzioni sicure e personalizzate per ogni esigenza.",
+    "p2": "Nati come parte del prestigioso Javed Group, abbiamo costruito la nostra reputazione sull'affidabilità e sulla profonda conoscenza delle dinamiche internazionali."
+  },
+  "values": {
+    "vision": {
+      "title": "Visione",
+      "text": "Essere il ponte che collega culture diverse, rendendo ogni destinazione accessibile e sicura."
+    },
+    "integrity": {
+      "title": "Integrità",
+      "text": "Trasparenza totale sui costi e assistenza continua per ogni imprevisto durante il tour."
+    },
+    "excellence": {
+      "title": "Eccellenza",
+      "text": "Selezioniamo solo i migliori partner internazionali per garantire standard di comfort elevatissimi."
+    }
+  }
+}

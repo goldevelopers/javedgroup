@@ -1,0 +1,10 @@
+{
+  "description": "Part of Javed Group. Elite consulting for the protection and development of your future.",
+  "links_title": "Business",
+  "links": [
+    { "label": "Life Insurance", "href": "/assicurazioni/services" },
+    { "label": "Risk Management", "href": "/assicurazioni/services" },
+    { "label": "Pension Funds", "href": "/assicurazioni/services" }
+  ],
+  "copyright": "JB Agency - Elite Consulting Excellence"
+}

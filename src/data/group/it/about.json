@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "Chi Siamo | Javed Group",
+    "description": "Scopri di più su Javed Group."
+  },
+  "hero": {
+    "title": "La Nostra Visione",
+    "subtitle": "Dal 2013, costruiamo ponti tra le persone e i loro obiettivi, attraverso servizi d'eccellenza e un approccio umano unico."
+  },
+  "story": {
+    "title": "Oltre 10 Anni di Dedizione",
+    "p1": "Javed Group nasce a Gallarate con l'obiettivo di diventare un punto di riferimento per la comunità locale e internazionale.",
+    "p2": "La nostra forza risiede nella multidisciplinarietà: un unico nucleo che coordina viaggi, mobilità, consulenza fiscale e assicurativa con la stessa maniacale cura del dettaglio."
+  },
+  "stats": {
+    "foundation": "Anno Fondazione",
+    "business": "Aree Business",
+    "clients": "Clienti Serviti",
+    "commitment": "Impegno"
+  },
+  "ecosystem": {
+    "title": "Il Nostro Ecosistema",
+    "subtitle": "Quattro eccellenze unite sotto un'unica visione di servizio e professionalità."
+  }
+}

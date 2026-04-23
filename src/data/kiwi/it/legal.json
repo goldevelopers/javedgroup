@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "title": "Legale e Privacy | Autoscuole Kiwi",
+    "description": "Informazioni legali e privacy policy di Autoscuole Kiwi."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "La presente Privacy Policy descrive come Javed Group raccoglie, utilizza e protegge i tuoi dati personali.",
+    "sections": [
+      {
+        "title": "1. Raccolta dei Dati",
+        "content": "Raccogliemo informazioni fornite volontariamente attraverso i moduli di contatto, come nome, email e numero di telefono, al fine di rispondere alle tue richieste di consulenza."
+      },
+      {
+        "title": "2. Utilizzo dei Dati",
+        "content": "I dati raccolti vengono utilizzati esclusivamente per scopi amministrativi e per la fornitura dei servizi richiesti."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Note Legali",
+    "subtitle": "Le presenti note legali regolano l'accesso e l'uso del sito web di Javed Group.",
+    "sections": [
+      {
+        "title": "Proprietà Intellettuale",
+        "content": "Tutti i contenuti presenti su questo sito sono di proprietà esclusiva di Javed Group o dei rispettivi licenziatari."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookies Policy",
+    "subtitle": "Informativa sull'uso dei cookie in ottemperanza alle direttive vigenti.",
+    "sections": [
+      {
+        "title": "Cosa sono i cookie",
+        "content": "I cookie sono piccoli file di testo che i siti visitati dagli utenti inviano ai loro terminali, dove vengono memorizzati per essere ritrasmessi agli stessi siti alla visita successiva."
+      }
+    ]
+  }
+}

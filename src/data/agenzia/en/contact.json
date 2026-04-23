@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "title": "Contact Us | Agenzia Javed",
+    "description": "Get in touch with Agenzia Javed."
+  },
+  "hero": {
+    "title": "Simplifying<br><span class=\"text-skyblue\">Bureaucracy</span> for you."
+  },
+  "info": {
+    "office": {
+      "title": "Gallarate Office",
+      "address": "Via G. Parini, 4, 21013 Gallarate (VA)"
+    },
+    "contacts": {
+      "title": "Direct Contacts",
+      "phone": "T. +39 0331 245274",
+      "mobile": "M. +39 392 50 50000"
+    }
+  },
+  "form": {
+    "title": "Send us a message",
+    "name": "Full Name",
+    "email": "Email",
+    "service_placeholder": "Select service...",
+    "services": [
+      "Tax Help (CAF / 730)",
+      "Pension / Social Benefits",
+      "Residence Permit",
+      "Business Services"
+    ],
+    "message": "Describe your request...",
+    "submit": "Send Request"
+  }
+}

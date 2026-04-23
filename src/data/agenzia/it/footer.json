@@ -1,0 +1,14 @@
+{
+  "description": "Parte di Javed Group. Supporto amministrativo e fiscale per privati e imprese dal 2013.",
+  "links_title": "Servizi",
+  "links": [
+    { "label": "Modello 730/ISEE", "href": "/agenzia/services" },
+    { "label": "Patronato & Pensioni", "href": "/agenzia/services" },
+    { "label": "Partita IVA", "href": "/agenzia/services" },
+    { "label": "Contratti Affitto", "href": "/agenzia/services" }
+  ],
+  "address_title": "Sede",
+  "address": "Via G. Parini, 4, 21013 Gallarate (VA)",
+  "phone": "T. 0331 245274",
+  "copyright": "Agenzia Javed - Part of Javed Group. Via G. Parini 4, Gallarate."
+}

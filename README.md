@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Javed Group - Multilingual Portal Ecosystem
 
-## Getting Started
+This project is a high-performance Next.js application hosting five distinct brand portals under the Javed Group umbrella.
 
-First, run the development server:
+- **Javed Group** (Main Site)
+- **Javed Travel** (Viaggi)
+- **Javed Agency** (Agenzia)
+- **Autoscuole Kiwi** (Kiwi)
+- **JB Agency** (Assicurazioni)
 
+## 🚀 Getting Started
+
+### Installation
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Localization & Data Management
 
-## Learn More
+The project uses a site-independent, nested data architecture. Each division manages its own content separately.
 
-To learn more about Next.js, take a look at the following resources:
+**Location**: `src/data/[site]/[locale]/[namespace].json`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Supported Languages
+- **IT**: Italian (Default)
+- **EN**: English
+- **UR**: Urdu (With full RTL support)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### How to Update Content
+To modify text:
+1. Navigate to `src/data/[portal]/[lang]/`.
+2. Open the relevant file (e.g., `home.json` for main content, `header.json` for navigation).
+3. The UI will update automatically reflecting the JSON keys.
 
-## Deploy on Vercel
+## 🏗️ Technical Architecture
+- **Framework**: Next.js 14 (App Router)
+- **i18n**: Custom hook `useI18n(site, namespace)` with dynamic JSON imports.
+- **Layouts**: Modular layout strategy for brand isolation.
+- **Legals**: Standardized legal page component catering to all divisions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+For more details on the migration process, see [MIGRATION_SUMMARY.md](file:///Users/user/Sites/javedgroup-1/MIGRATION_SUMMARY.md).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+cp -r /Users/user/Sites/javedgroup-1/out/ /Users/user/Sites/javedgroup-1/staticbuild/

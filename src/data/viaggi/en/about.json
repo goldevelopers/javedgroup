@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "title": "About Us | Javed Viaggi",
+    "description": "Learn more about Javed Viaggi."
+  },
+  "hero": {
+    "badge": "Passion & Professionalism",
+    "title": "Every trip is a story to be written.",
+    "p1": "For over 10 years, our mission has been to simplify the world of travel, offering safe and personalized solutions for every need.",
+    "p2": "Born as part of the prestigious Javed Group, we have built our reputation on reliability and deep knowledge of international dynamics."
+  },
+  "values": {
+    "vision": {
+      "title": "Vision",
+      "text": "Being the bridge that connects different cultures, making every destination accessible and safe."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "text": "Total transparency on costs and continuous assistance for any unforeseen events during the tour."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "text": "We select only the best international partners to ensure very high standards of comfort."
+    }
+  }
+}

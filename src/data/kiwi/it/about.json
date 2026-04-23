@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "title": "Chi Siamo | Autoscuole Kiwi",
+    "description": "Scopri di più su Autoscuole Kiwi."
+  },
+  "hero": {
+    "badge": "Passione per la Guida",
+    "title": "Oltre la Patente.",
+    "p1": "Autoscuole Kiwi non è solo una scuola guida, è un centro di eccellenza per la sicurezza stradale a Gallarate.",
+    "p2": "Con il supporto tecnologico e l'organizzazione di Javed Group, abbiamo rivoluzionato l'apprendimento della teoria e della pratica, rendendoli dinamici, efficaci e orientati alla sicurezza reale su strada."
+  },
+  "features": [
+    {
+      "icon": "🚗",
+      "title": "Flotta Moderna",
+      "text": "Utilizziamo veicoli di ultima generazione per garantire comfort e sicurezza durante ogni ora di guida."
+    },
+    {
+      "icon": "💻",
+      "title": "Metodo Digitale",
+      "text": "Lezioni interattive e app dedicata per esercitarsi sui quiz ovunque e in qualsiasi momento."
+    },
+    {
+      "icon": "👨‍🏫",
+      "title": "Coach Esperti",
+      "text": "Istruttori qualificati che ti seguono con pazienza, preparandoti non solo all'esame, ma alla vita su strada."
+    }
+  ]
+}

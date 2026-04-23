@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "title": "I Nostri Servizi | JB Agency",
+    "description": "Scopri i servizi offerti da JB Agency."
+  },
+  "hero": {
+    "title": "Protezione Elite.",
+    "subtitle": "Copertura totale per ogni aspetto della tua vita privata e professionale."
+  },
+  "groups": [
+    {
+      "title": "Mobilità",
+      "items": [
+        "RC Auto & Moto",
+        "Kasko & Furto/Incendio",
+        "Assistenza Stradale H24",
+        "Cristalli & Eventi Naturali"
+      ],
+      "theme": "light"
+    },
+    {
+      "title": "Patrimonio",
+      "items": [
+        "Assicurazione Casa",
+        "Responsabilità Civile",
+        "Polizze Vita & Infortuni",
+        "Piani di Risparmio"
+      ],
+      "theme": "dark"
+    },
+    {
+      "title": "Business",
+      "items": [
+        "RC Professionale",
+        "Tutela Aziendale",
+        "Fideiussioni & Cauzioni",
+        "Analisi dei Rischi"
+      ],
+      "theme": "light"
+    }
+  ]
+}

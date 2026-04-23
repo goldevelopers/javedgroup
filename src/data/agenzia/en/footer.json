@@ -1,0 +1,11 @@
+{
+  "description": "Part of Javed Group. Administrative and tax support for individuals and businesses since 2013.",
+  "links_title": "Services",
+  "links": [
+    { "label": "730/ISEE Model", "href": "/agenzia/services" },
+    { "label": "Patronato & Pensions", "href": "/agenzia/services" },
+    { "label": "VAT Opening", "href": "/agenzia/services" },
+    { "label": "Lease Contracts", "href": "/agenzia/services" }
+  ],
+  "copyright": "Agenzia Javed - Part of Javed Group. Via G. Parini 4, Gallarate."
+}

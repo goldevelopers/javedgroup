@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "I Nostri Servizi | Javed Viaggi",
+    "description": "Scopri i servizi offerti da Javed Viaggi."
+  },
+  "hero": {
+    "title": "Servizi d'Eccellenza.",
+    "subtitle": "Pianifichiamo ogni dettaglio per trasformare il tuo viaggio in un'esperienza senza stress."
+  },
+  "flights": {
+    "title": "Biglietteria Aerea",
+    "description": "Accesso a tariffe esclusive per voli nazionali e internazionali. Gestiamo prenotazioni per tutte le principali compagnie aeree globali con assistenza h24.",
+    "features": [
+      "Voli Low Cost & Business",
+      "Gestione Bagagli & Check-in",
+      "Assistenza in caso di ritardi"
+    ]
+  },
+  "visas": {
+    "title": "Visti & Documenti",
+    "description": "Gestione completa delle pratiche burocratiche per l'ottenimento di visti turistici e d'affari per qualsiasi destinazione mondiale.",
+    "features": [
+      "Visti USA, India, Cina, Russia",
+      "Traduzione Documentazione",
+      "Intermediazione Consolare"
+    ]
+  },
+  "packages": {
+    "title": "Pacchetti Vacanze",
+    "description": "Soggiorni indimenticabili nei migliori resort al mondo. Collaboriamo con i principali tour operator per offrirti il massimo della qualità.",
+    "features": [
+      "Viaggi di Nozze",
+      "Tour di Gruppo",
+      "Crociere di Lusso"
+    ]
+  },
+  "emergency": {
+    "title": "Supporto Emergency",
+    "description": "Non sei mai solo. Un nostro esperto è sempre disponibile per gestire cancellazioni, riprotezioni o emergenze durante il tuo soggiorno.",
+    "features": [
+      "Assistenza Telefonica 24/7",
+      "Modifiche Itinerario in Tempo Reale"
+    ]
+  }
+}

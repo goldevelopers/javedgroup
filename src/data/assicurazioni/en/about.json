@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "About Us | JB Agency",
+    "description": "Learn more about JB Agency."
+  },
+  "hero": {
+    "badge": "Strategic Vision",
+    "title": "We Build Security.",
+    "p1": "JB Agency is the division of Javed Group dedicated to high-level insurance consulting and corporate risk management.",
+    "p2": "Our goal is to protect what matters most: your family, your assets, and your business. Through a network of international partners and an analytical approach, we provide advanced solutions that anticipate market challenges."
+  },
+  "sections": {
+    "values": {
+      "title": "Elite Values",
+      "text": "Confidentiality, technical competence, and result orientation. These are the pillars that guide every one of our consultations."
+    },
+    "integration": {
+      "title": "Global Integration",
+      "text": "We leverage the Javed Group ecosystem to offer a 360-degree vision, integrating legal, fiscal, and insurance aspects into a single coordinated strategy."
+    }
+  }
+}
