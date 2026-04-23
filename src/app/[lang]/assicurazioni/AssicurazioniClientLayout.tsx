@@ -49,6 +49,7 @@ export default function AssicurazioniClientLayout({ children }: { children: Reac
         }))}
         copyright={footerT.copyright}
         accentColor="teal"
+        divisionBase={base}
       />
     </>
   );

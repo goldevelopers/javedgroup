@@ -49,6 +49,7 @@ export default function ViaggiClientLayout({ children }: { children: React.React
         }))}
         copyright={footerT.copyright}
         accentColor="teal"
+        divisionBase={base}
       />
     </>
   );

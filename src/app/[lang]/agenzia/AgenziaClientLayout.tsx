@@ -51,6 +51,7 @@ export default function AgenziaClientLayout({ children }: { children: React.Reac
         }))}
         copyright={footerT.copyright}
         accentColor="skyblue"
+        divisionBase={base}
       />
     </>
   );

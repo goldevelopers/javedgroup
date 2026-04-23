@@ -49,6 +49,7 @@ export default function KiwiClientLayout({ children }: { children: React.ReactNo
         }))}
         copyright={footerT.copyright}
         accentColor="lime"
+        divisionBase={base}
       />
     </>
   );

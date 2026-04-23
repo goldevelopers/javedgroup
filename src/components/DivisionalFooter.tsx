@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import { assetPath } from '@/lib/assetPath';
 import { useLanguage } from '@/lib/LanguageContext';
 
 interface DivisionalFooterProps {
@@ -14,6 +14,8 @@ interface DivisionalFooterProps {
   links: { label: string; href: string }[];
   copyright: string;
   accentColor?: string;
+  /** Empty string on subdomain, e.g. '/kiwi' on path-based routing */
+  divisionBase?: string;
 }
 
 const DivisionalFooter = ({
@@ -23,6 +25,7 @@ const DivisionalFooter = ({
   linksTitle,
   links,
   copyright,
+  divisionBase = '',
 }: DivisionalFooterProps) => {
   const { locale } = useLanguage();
   const l = (path: string) => `/${locale}${path}`;
@@ -32,7 +35,7 @@ const DivisionalFooter = ({
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="lg:col-span-1">
-            <Image src={logo} alt={divisionName} width={150} height={40} className="h-10 w-auto mb-8 brightness-0 invert object-contain" />
+            <img src={assetPath(logo)} alt={divisionName} className="h-10 w-auto mb-8 brightness-0 invert object-contain" />
             <p className="text-gray-400 font-light leading-relaxed">{description}</p>
           </div>
           <div>
@@ -48,9 +51,9 @@ const DivisionalFooter = ({
           <div>
             <h4 className="font-bold mb-8 text-sm uppercase tracking-widest text-gray-500">Legal</h4>
             <ul className="space-y-4 text-gray-400 font-light">
-              <li><Link href={l('/privacy')} className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href={l('/cookies')} className="hover:text-white transition-colors">Cookies Policy</Link></li>
-              <li><Link href={l('/terms')} className="hover:text-white transition-colors">Note Legali</Link></li>
+              <li><Link href={l(`${divisionBase}/privacy`)} className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link href={l(`${divisionBase}/cookies`)} className="hover:text-white transition-colors">Cookies Policy</Link></li>
+              <li><Link href={l(`${divisionBase}/terms`)} className="hover:text-white transition-colors">Note Legali</Link></li>
             </ul>
           </div>
           <div>
