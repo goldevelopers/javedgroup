@@ -29,7 +29,7 @@ export function getSiteFromHost(host: string): SiteKey {
 
 /** Base URLs per site for canonical / sitemap / hreflang. */
 export const siteBaseUrls: Record<SiteKey, string> = {
-  group:          process.env.BASE_URL_GROUP          ?? 'https://javedgroup.com',
+  group:          process.env.BASE_URL_GROUP          ?? 'https://goldevelopers.github.io/javedgroup',
   agenzia:        process.env.BASE_URL_AGENZIA        ?? 'https://agenzia.javedgroup.com',
   assicurazioni:  process.env.BASE_URL_ASSICURAZIONI  ?? 'https://assicurazioni.javedgroup.com',
   kiwi:           process.env.BASE_URL_KIWI           ?? 'https://kiwi.javedgroup.com',
