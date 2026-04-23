@@ -31,6 +31,7 @@ export default function KiwiClientLayout({ children }: { children: React.ReactNo
       <DivisionalHeader
         logo="/logos/Autoscuole_Kiwi.svg"
         divisionName="Autoscuole Kiwi"
+        divisionBase={base}
         navItems={navItems}
         ctaText={headerT.cta}
         accentColor="lime"

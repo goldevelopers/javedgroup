@@ -31,6 +31,7 @@ export default function ViaggiClientLayout({ children }: { children: React.React
       <DivisionalHeader
         logo="/logos/Javed_Viaggi.svg"
         divisionName="Javed Viaggi"
+        divisionBase={base}
         navItems={navItems}
         ctaText={headerT.cta}
         accentColor="teal"

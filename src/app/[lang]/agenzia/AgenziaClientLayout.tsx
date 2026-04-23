@@ -32,6 +32,7 @@ export default function AgenziaClientLayout({ children }: { children: React.Reac
       <DivisionalHeader
         logo="/logos/Agenzia_Javed.svg"
         divisionName="Agenzia Javed"
+        divisionBase={base}
         navItems={navItems}
         ctaText={headerT.cta}
         accentColor="skyblue"

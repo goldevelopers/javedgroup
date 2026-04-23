@@ -31,6 +31,7 @@ export default function AssicurazioniClientLayout({ children }: { children: Reac
       <DivisionalHeader
         logo="/logos/JB_Agency.svg"
         divisionName="JB Agency"
+        divisionBase={base}
         navItems={navItems}
         ctaText={headerT.cta}
         accentColor="teal"

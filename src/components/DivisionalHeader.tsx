@@ -16,6 +16,8 @@ interface NavItem {
 interface DivisionalHeaderProps {
   logo: string;
   divisionName: string;
+  /** Empty string on subdomain, e.g. '/kiwi' on path-based routing */
+  divisionBase?: string;
   navItems: NavItem[];
   ctaText: string;
   accentColor?: string;
@@ -32,6 +34,7 @@ const bgAccentClasses: Record<string, string> = {
 const DivisionalHeader = ({
   logo,
   divisionName,
+  divisionBase = '',
   navItems,
   ctaText,
   accentColor = 'teal',
@@ -67,7 +70,7 @@ const DivisionalHeader = ({
     <>
       <nav id="navbar" className={`fixed top-0 inset-x-0 z-50 glass ${scrolled ? 'scrolled' : ''}`}>
         <div className={`max-w-7xl mx-auto px-6 flex justify-between items-center transition-all duration-500 ${scrolled ? 'h-16' : 'h-20'}`}>
-          <Link href={l('')} className="flex items-center gap-4 group">
+          <Link href={l(divisionBase || '/')} className="flex items-center gap-4 group">
             <img src={assetPath(logo)} alt={divisionName} className="h-10 w-auto object-contain" />
           </Link>
 
@@ -104,7 +107,7 @@ const DivisionalHeader = ({
               ))}
             </div>
 
-            <Link href={l('/contact')} className={`btn-premium ${bg} text-white text-xs shadow-sm`}>
+            <Link href={l(`${divisionBase}/contact`)} className={`btn-premium ${bg} text-white text-xs shadow-sm`}>
               {ctaText}
             </Link>
           </div>
@@ -131,7 +134,7 @@ const DivisionalHeader = ({
               {backToGroupLabel}
             </a>
           ) : (
-            <Link href={l('')} onClick={toggleMenu} className="text-lg font-medium text-gray-400 italic">
+            <Link href={l(divisionBase || '/')} onClick={toggleMenu} className="text-lg font-medium text-gray-400 italic">
               {backToGroupLabel}
             </Link>
           )}
@@ -148,7 +151,7 @@ const DivisionalHeader = ({
             ))}
           </div>
 
-          <Link href={l('/contact')} onClick={toggleMenu} className={`btn-premium ${bg} text-white mt-4`}>
+          <Link href={l(`${divisionBase}/contact`)} onClick={toggleMenu} className={`btn-premium ${bg} text-white mt-4`}>
             {ctaText}
           </Link>
         </div>
